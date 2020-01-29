@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05F92CCC23E185AD00174FA7 /* UserDefaultWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F92CCB23E185AD00174FA7 /* UserDefaultWrapper.swift */; };
 		05FF4E5921E8779C00BD3830 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FF4E5821E8779C00BD3830 /* AppDelegate.swift */; };
 		05FF4E5B21E8779C00BD3830 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FF4E5A21E8779C00BD3830 /* ViewController.swift */; };
 		05FF4E5E21E8779C00BD3830 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05FF4E5C21E8779C00BD3830 /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05F92CCB23E185AD00174FA7 /* UserDefaultWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultWrapper.swift; sourceTree = "<group>"; };
 		05FF4E5521E8779C00BD3830 /* helpers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helpers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05FF4E5821E8779C00BD3830 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05FF4E5A21E8779C00BD3830 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 		05FF4E5721E8779C00BD3830 /* helpers */ = {
 			isa = PBXGroup;
 			children = (
+				05F92CCB23E185AD00174FA7 /* UserDefaultWrapper.swift */,
 				05FF4E6A21E8784300BD3830 /* ExtObjectOrNil.swift */,
 				05FF4E7C21E881CE00BD3830 /* ExtUIImage.swift */,
 				05FF4E7621E87FB300BD3830 /* ExtString.swift */,
@@ -165,6 +168,7 @@
 				05FF4E7521E87EF200BD3830 /* AppVersionHelper.swift in Sources */,
 				05FF4E7D21E881CE00BD3830 /* ExtUIImage.swift in Sources */,
 				05FF4E7721E87FB300BD3830 /* ExtString.swift in Sources */,
+				05F92CCC23E185AD00174FA7 /* UserDefaultWrapper.swift in Sources */,
 				05FF4E7321E87E8100BD3830 /* Reachability.swift in Sources */,
 				05FF4E7121E87B9C00BD3830 /* LogsHelper.swift in Sources */,
 				05FF4E5B21E8779C00BD3830 /* ViewController.swift in Sources */,
